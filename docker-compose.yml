@@ -5,7 +5,7 @@ services:
         image: mysql:5.7
         environment:
             MYSQL_ROOT_PASSWORD: R1234r
-            MYSQL_DATABASE: todo_db
+            MYSQL_DATABASE: bookstore_db
             MYSQL_USER: clarusway
             MYSQL_PASSWORD: Clarusway_1
         networks:
